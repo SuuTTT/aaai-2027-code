@@ -1,0 +1,8 @@
+{
+  "cora_best_modularity": 0.04195372027849618,
+  "cora_best_conductance": 0.997115434703339,
+  "citeseer_best_modularity": 0.09400573223079696,
+  "citeseer_best_conductance": 0.9948010427559463,
+  "timestamp": "2026-05-29 12:14:19",
+  "agent_checkpoint": "results/checkpoints/ss2v_marl_fleet.pt"
+}
