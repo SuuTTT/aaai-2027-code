@@ -1,8 +1,8 @@
-# Decentralized Multi-Agent Graph Partitioning Fleet (AAAI 2027)
+# Decentralized Multi-Agent Graph Partitioning Fleet
 
-Official PyTorch implementation of the AAAI 2027 paper: **"Decentralized Multi-Agent Graph Partitioning Fleet via Event-Triggered Quantized Gumbel-Softmax GAT Consensus"**.
+> **Status (2026-09-28): unpublished research prototype.** This code accompanies an unfinished project, "Decentralized Multi-Agent Graph Partitioning Fleet via Event-Triggered Quantized Gumbel-Softmax GAT Consensus". It is **not** an AAAI 2027 paper and has not been peer-reviewed. An earlier version of this README described it as the official implementation of an AAAI 2027 paper; that was incorrect.
 
-This repository contains the high-performance, resource-efficient cooperative MARL framework for solving massive signed multicut partitioning (MCMP) and community detection tasks. By decomposing global graphs into localized overlapping seed-based receptive fields, our framework enforces a strict $O(1)$ VRAM footprint (running in under 50 MB VRAM) while achieving state-of-the-art zero-shot scale generalization.
+This repository contains the high-performance, resource-efficient cooperative MARL framework for solving massive signed multicut partitioning (MCMP) and community detection tasks. By decomposing global graphs into localized overlapping seed-based receptive fields, our framework enforces a strict $O(1)$ VRAM footprint (running in under 50 MB VRAM) and is designed for zero-shot generalization to larger graphs (not validated in a peer-reviewed study).
 
 ---
 
@@ -71,11 +71,4 @@ pytest tests/
 
 ## 📄 Citation
 
-```bibtex
-@inproceedings{aaai2027marlfleet,
-  title={Decentralized Multi-Agent Graph Partitioning Fleet via Event-Triggered Quantized Gumbel-Softmax GAT Consensus},
-  author={AAAI Submission 2842},
-  booktitle={AAAI Conference on Artificial Intelligence (AAAI)},
-  year={2027}
-}
-```
+This is an unpublished prototype; there is no paper to cite. If you use the code, please link to this repository.
